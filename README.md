@@ -1,9 +1,23 @@
 # Laravel Discord Notifier
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/triztan/laravel-discord-notifier.svg?style=flat-square)](https://packagist.org/packages/triztan/laravel-discord-notifier)
-[![License](https://img.shields.io/packagist/l/triztan/laravel-discord-notifier.svg?style=flat-square)](https://packagist.org/packages/triztan/laravel-discord-notifier)
+[![Latest Version on Packagist](https://img.shields.ai/packagist/v/triztan/laravel-discord-notifier.svg?style=flat-square)](https://packagist.org/packages/triztan/laravel-discord-notifier)
+[![License](https://img.shields.ai/packagist/l/triztan/laravel-discord-notifier.svg?style=flat-square)](https://packagist.org/packages/triztan/laravel-discord-notifier)
 
 A lightweight, zero-dependency Laravel package to instantly dispatch error logs, exceptions, and system notifications directly to your Discord channel via Webhook.
+
+---
+
+## 🚀 Need Enterprise-Grade Features? Check out the PRO Edition!
+
+If you are working on a high-traffic or large-scale project and need advanced capabilities, upgrade to the **Laravel Discord Notifier PRO (Enterprise Edition)** package, which includes:
+
+* 🎨 **Advanced Rich Embed Builder (DTO)**: Send detailed, color-coded, customized Discord cards with fields and footers.
+* ⚡ **Asynchronous Queue Background Jobs (`SendDiscordNotificationJob`)**: Non-blocking dispatching so your HTTP requests stay lightning fast.
+* 🪵 **Native Monolog Logger Driver**: Seamlessly integrates into Laravel's logging stack to automatically push critical application errors to Discord.
+* 🚦 **Built-in Rate-Limiting**: Intelligently prevents hitting Discord API limits (avoiding `429 Too Many Requests` errors).
+* ⚙️ **Extended Configuration & Facade Support**: Full control via the `DiscordPro` Facade.
+
+👉 **[Get the PRO Edition on Gumroad ($11.27)](https://tordai1.gumroad.com/l/ymoakj)**
 
 ---
 
