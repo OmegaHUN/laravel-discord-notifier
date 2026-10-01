@@ -1,0 +1,41 @@
+{
+    "name": "triztan/laravel-discord-notifier",
+    "description": "A lightweight and production-ready Laravel package to dispatch error logs and notifications to Discord via Webhooks.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tordai Gergő",
+            "email": "info@totalgaming.cc"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Triztan\\DiscordNotifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Triztan\\DiscordNotifier\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Triztan\\DiscordNotifier\\DiscordServiceProvider"
+            ],
+            "aliases": {
+                "Discord": "Triztan\\DiscordNotifier\\Facades\\Discord"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
